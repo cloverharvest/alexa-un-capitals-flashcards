@@ -72,7 +72,7 @@ Jakarta
 Jerusalem
 Kabul
 Kampala
-Katmandu
+Kathmandu
 Khartoum
 Kiev
 Kigali
@@ -120,7 +120,7 @@ New Delhi
 Niamey
 Nicosia
 Nouakchott
-Nuku'alofa
+Nuku alofa
 Oslo
 Ottawa
 Ouagadougou
@@ -182,7 +182,7 @@ Vienna
 Vientiane
 Vilnius
 Warsaw
-Washington DC
+Washington
 Wellington
 Windhoek
 Yamoussoukro

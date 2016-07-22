@@ -18,7 +18,7 @@
  * Make sure the first answer is the correct one. Set at least 4 answers, any extras will be shuffled in.
  */
 
- /* FOR UNITED NATIONS MEMBER COUNTRIES */
+ /* FOR UNITED NATIONS MEMBER STATES */
 
 var questions = [
     {
@@ -203,6 +203,11 @@ var questions = [
         ]
     },
     {
+        "What is the capital of Colombia?": [
+            "Bogota"
+        ]
+    },
+    {
         "What is the capital of the Republic of Congo?": [
             "Brazzaville"
         ]
@@ -265,6 +270,711 @@ var questions = [
     {
         "What is the capital of East Timor?": [
             "Dili"
+        ]
+    },
+    {
+        "What is the capital of Ecuador?": [
+            "Quito"
+        ]
+    },
+    {
+        "What is the capital of Egypt?": [
+            "Cairo"
+        ]
+    },
+    {
+        "What is the capital of El Salvador?": [
+            "San Salvador"
+        ]
+    },
+    {
+        "What is the capital of Equatorial Guinea?": [
+            "Malabo"
+        ]
+    },
+    {
+        "What is the capital of Eritrea?": [
+            "Asmara"
+        ]
+    },
+    {
+        "What is the capital of Estonia?": [
+            "Tallinn"
+        ]
+    },
+    {
+        "What is the capital of Ethiopia?": [
+            "Addis Ababa"
+        ]
+    },
+    {
+        "What is the capital of Fiji?": [
+            "Suva"
+        ]
+    },
+    {
+        "What is the capital of Finland?": [
+            "Helsinki"
+        ]
+    },
+    {
+        "What is the capital of France?": [
+            "Paris"
+        ]
+    },
+    {
+        "What is the capital of Gabon?": [
+            "Libreville"
+        ]
+    },
+    {
+        "What is the capital of Gambia?": [
+            "Banjul"
+        ]
+    },
+    {
+        "What is the capital of Georgia?": [
+            "Tblisi"
+        ]
+    },
+    {
+        "What is the capital of Germany?": [
+            "Berlin"
+        ]
+    },
+    {
+        "What is the capital of Ghana?": [
+            "Accra"
+        ]
+    },
+    {
+        "What is the capital of Greece?": [
+            "Athens"
+        ]
+    },
+    {
+        "What is the capital of Grenada?": [
+            "Saint George's"
+        ]
+    },
+    {
+        "What is the capital of Guatemala?": [
+            "Guatemala City"
+        ]
+    },
+    {
+        "What is the capital of Guinea?": [
+            "Conakry"
+        ]
+    },
+    {
+        "What is the capital of Guinea-Bissau?": [
+            "Bissau"
+        ]
+    },
+    {
+        "What is the capital of Guyana?": [
+            "Georgetown"
+        ]
+    },
+    {
+        "What is the capital of Haiti?": [
+            "Port-au-Prince"
+        ]
+    },
+    {
+        "What is the capital of Honduras?": [
+            "Tegucigalpa"
+        ]
+    },
+    {
+        "What is the capital of Hungary?": [
+            "Budapest"
+        ]
+    },
+    {
+        "What is the capital of Iceland?": [
+            "Reykjavik"
+        ]
+    },
+    {
+        "What is the capital of India?": [
+            "New Delhi"
+        ]
+    },
+    {
+        "What is the capital of Indonesia?": [
+            "Jakarta"
+        ]
+    },
+    {
+        "What is the capital of Iran?": [
+            "Tehran"
+        ]
+    },
+    {
+        "What is the capital of Iraq?": [
+            "Baghdad"
+        ]
+    },
+    {
+        "What is the capital of Ireland?": [
+            "Dublin"
+        ]
+    },
+    {
+        "What is the capital of Israel?": [
+            "Jerusalem"
+        ]
+    },
+    {
+        "What is the capital of Italy?": [
+            "Rome"
+        ]
+    },
+    {
+        "What is the capital of Jamaica?": [
+            "Kingston"
+        ]
+    },
+    {
+        "What is the capital of Japan?": [
+            "Tokyo"
+        ]
+    },
+    {
+        "What is the capital of Jordan?": [
+            "Amman"
+        ]
+    },
+    {
+        "What is the capital of Kazakhstan?": [
+            "Astana"
+        ]
+    },
+    {
+        "What is the capital of Kenya?": [
+            "Nairobi"
+        ]
+    },
+    {
+        "What is the capital of Kiribati?": [
+            "Tarawa"
+        ]
+    },
+    {
+        "What is the capital of North Korea?": [
+            "Pyongyang"
+        ]
+    },
+    {
+        "What is the capital of South Korea?": [
+            "Seoul"
+        ]
+    },
+    {
+        "What is the capital of Kuwait?": [
+            "Kuwait City"
+        ]
+    },
+    {
+        "What is the capital of Kyrgyzstan?": [
+            "Bishtek"
+        ]
+    },
+    {
+        "What is the capital of Laos?": [
+            "Vientiane"
+        ]
+    },
+    {
+        "What is the capital of Latvia?": [
+            "Riga"
+        ]
+    },
+    {
+        "What is the capital of Lebanon?": [
+            "Beirut"
+        ]
+    },
+    {
+        "What is the capital of Lesotho?": [
+            "Maseru"
+        ]
+    },
+    {
+        "What is the capital of Liberia?": [
+            "Monrovia"
+        ]
+    },
+    {
+        "What is the capital of Libya?": [
+            "Tripoli"
+        ]
+    },
+    {
+        "What is the capital of Lichtenstein?": [
+            "Vaduz"
+        ]
+    },
+    {
+        "What is the capital of Lithuania?": [
+            "Vilnius"
+        ]
+    },
+    {
+        "What is the capital of Luxembourg?": [
+            "Luxembourg"
+        ]
+    },
+    {
+        "What is the capital of Macedonia?": [
+            "Skopje"
+        ]
+    },
+    {
+        "What is the capital of Madagascar?": [
+            "Antananarivo"
+        ]
+    },
+    {
+        "What is the capital of Malawi?": [
+            "Lelongwe"
+        ]
+    },
+    {
+        "What is the capital of Malaysia?": [
+            "Kuala Lumpur"
+        ]
+    },
+    {
+        "What is the capital of Maldives?": [
+            "Male"
+        ]
+    },
+    {
+        "What is the capital of Mali?": [
+            "Bamako"
+        ]
+    },
+    {
+        "What is the capital of Malta?": [
+            "Valletta"
+        ]
+    },
+    {
+        "What is the capital of Marshall Islands?": [
+            "Majuro"
+        ]
+    },
+    {
+        "What is the capital of Mauritania?": [
+            "Nouakchott"
+        ]
+    },
+    {
+        "What is the capital of Mauritius?": [
+            "Port Louis"
+        ]
+    },
+    {
+        "What is the capital of Mexico?": [
+            "Mexico City"
+        ]
+    },
+    {
+        "What is the capital of Micronesia?": [
+            "Palikir"
+        ]
+    },
+    {
+        "What is the capital of Moldova?": [
+            "Chisinau"
+        ]
+    },
+    {
+        "What is the capital of Monaco?": [
+            "Monaco"
+        ]
+    },
+    {
+        "What is the capital of Mongolia?": [
+            "Ulaanbaatar"
+        ]
+    },
+    {
+        "What is the capital of Montenegro?": [
+            "Podgorica"
+        ]
+    },
+    {
+        "What is the capital of Morocco?": [
+            "Rabat"
+        ]
+    },
+    {
+        "What is the capital of Mozambique?": [
+            "Maputo"
+        ]
+    },
+    {
+        "What is the capital of Myanmar": [
+            "Naypyidaw"
+        ]
+    },
+    {
+        "What is the capital of Namibia?": [
+            "Windhoek"
+        ]
+    },
+    {
+        "What is the capital of Nauru?": [
+            "Yaren District"
+        ]
+    },
+    {
+        "What is the capital of Nepal?": [
+            "Kathmandu"
+        ]
+    },
+    {
+        "What is the capital of Netherlands?": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "What is the capital of New Zealand?": [
+            "Wellington"
+        ]
+    },
+    {
+        "What is the capital of Nicaragua?": [
+            "Managua"
+        ]
+    },
+    {
+        "What is the capital of Niger?": [
+            "Niamey"
+        ]
+    },
+    {
+        "What is the capital of Nigeria?": [
+            "Abuja"
+        ]
+    },
+    {
+        "What is the capital of Norway?": [
+            "Oslo"
+        ]
+    },
+    {
+        "What is the capital of Oman?": [
+            "Muscat"
+        ]
+    },
+    {
+        "What is the capital of Pakistan?": [
+            "Islamabad"
+        ]
+    },
+    {
+        "What is the capital of Palau?": [
+            "Koror"
+        ]
+    },
+    {
+        "What is the capital of Panama?": [
+            "Panama City"
+        ]
+    },
+    {
+        "What is the capital of Papua New Guinea?": [
+            "Port Moresby"
+        ]
+    },
+    {
+        "What is the capital of Paraguay?": [
+            "Asuncion"
+        ]
+    },
+    {
+        "What is the capital of Peru?": [
+            "Lima"
+        ]
+    },
+    {
+        "What is the capital of Philippines?": [
+            "Manila"
+        ]
+    },
+    {
+        "What is the capital of Poland?": [
+            "Warsaw"
+        ]
+    },
+    {
+        "What is the capital of Portugal?": [
+            "Lisbon"
+        ]
+    },
+    {
+        "What is the capital of Qatar?": [
+            "Doha"
+        ]
+    },
+    {
+        "What is the capital of Romania?": [
+            "Bucharest"
+        ]
+    },
+    {
+        "What is the capital of Russia?": [
+            "Moscow"
+        ]
+    },
+    {
+        "What is the capital of Rwanda?": [
+            "Kigali"
+        ]
+    },
+    {
+        "What is the capital of Saint Kitts and Nevis?": [
+            "Bassetterre"
+        ]
+    },
+    {
+        "What is the capital of Saint Lucia?": [
+            "Castries"
+        ]
+    },
+    {
+        "What is the capital of Saint Vincent and the Grenadines?": [
+            "Kingstown"
+        ]
+    },
+    {
+        "What is the capital of Samoa?": [
+            "Apia"
+        ]
+    },
+    {
+        "What is the capital of San Marino?": [
+            "San Marino"
+        ]
+    },
+    {
+        "What is the capital of Sao Tome and Principe?": [
+            "Sao Tome"
+        ]
+    },
+    {
+        "What is the capital of Saudi Arabia?": [
+            "Riyadh"
+        ]
+    },
+    {
+        "What is the capital of Senegal?": [
+            "Dakar"
+        ]
+    },
+    {
+        "What is the capital of Serbia?": [
+            "Belgrade"
+        ]
+    },
+    {
+        "What is the capital of Seychelles?": [
+            "Victoria"
+        ]
+    },
+    {
+        "What is the capital of Sierra Leone?": [
+            "Freetown"
+        ]
+    },
+    {
+        "What is the capital of Singapore?": [
+            "Singapore"
+        ]
+    },
+    {
+        "What is the capital of Slovakia?": [
+            "Bratislava"
+        ]
+    },
+    {
+        "What is the capital of Slovenia?": [
+            "Ljubljana"
+        ]
+    },
+    {
+        "What is the capital of Solomon Islands?": [
+            "Honiara"
+        ]
+    },
+    {
+        "What is the capital of Somalia?": [
+            "Mogadishu"
+        ]
+    },
+    {
+        "What is the capital of South Africa?": [
+            "Pretoria"
+        ]
+    },
+    {
+        "What is the capital of Spain?": [
+            "Madrid"
+        ]
+    },
+    {
+        "What is the capital of Sri Lanka?": [
+            "Colombo"
+        ]
+    },
+    {
+        "What is the capital of Sudan?": [
+            "Khartoum"
+        ]
+    },
+    {
+        "What is the capital of Suriname?": [
+            "Paramaribo"
+        ]
+    },
+    {
+        "What is the capital of Swaziland?": [
+            "Mbabana"
+        ]
+    },
+    {
+        "What is the capital of Sweden?": [
+            "Stockholm"
+        ]
+    },
+    {
+        "What is the capital of Switzerland?": [
+            "Bern"
+        ]
+    },
+    {
+        "What is the capital of Syria?": [
+            "Damascus"
+        ]
+    },
+    {
+        "What is the capital of Tajikistan?": [
+            "Dushanbe"
+        ]
+    },
+    {
+        "What is the capital of Tanzania?": [
+            "Dar es Salaam"
+        ]
+    },
+    {
+        "What is the capital of Thailand?": [
+            "Bangkok"
+        ]
+    },
+    {
+        "What is the capital of Togo?": [
+            "Lome"
+        ]
+    },
+    {
+        "What is the capital of Tonga?": [
+            "Nuku alofa"
+        ]
+    },
+    {
+        "What is the capital of Trinidad and Tobago?": [
+            "Port-of-Spain"
+        ]
+    },
+    {
+        "What is the capital of Tunisia?": [
+            "Tunis"
+        ]
+    },
+    {
+        "What is the capital of Turkey?": [
+            "Ankara"
+        ]
+    },
+    {
+        "What is the capital of Turkmenistan?": [
+            "Ashgabat"
+        ]
+    },
+    {
+        "What is the capital of Tuvalu?": [
+            "Funafuti"
+        ]
+    },
+    {
+        "What is the capital of Uganda?": [
+            "Kampala"
+        ]
+    },
+    {
+        "What is the capital of Ukraine?": [
+            "Kiev"
+        ]
+    },
+    {
+        "What is the capital of United Arab Emirates?": [
+            "Abu Dhabi"
+        ]
+    },
+    {
+        "What is the capital of United Kingdom?": [
+            "London"
+        ]
+    },
+    {
+        "What is the capital of United States?": [
+            "Washington"
+        ]
+    },
+    {
+        "What is the capital of Uruguay?": [
+            "Montevideo"
+        ]
+    },
+    {
+        "What is the capital of Uzbekistan?": [
+            "Tashkent"
+        ]
+    },
+    {
+        "What is the capital of Vanuatu?": [
+            "Port Vila"
+        ]
+    },
+    {
+        "What is the capital of Venezuela?": [
+            "Caracas"
+        ]
+    },
+    {
+        "What is the capital of Vietnam?": [
+            "Hanoi"
+        ]
+    },
+    {
+        "What is the capital of Yemen?": [
+            "Sanaa"
+        ]
+    },
+    {
+        "What is the capital of Zambia?": [
+            "Lusaka"
+        ]
+    },
+    {
+        "What is the capital of Zimbabwe?": [
+            "Harare"
         ]
     },
 ];
@@ -394,7 +1104,7 @@ var CARD_TITLE = "U. N. Capitals Flash Cards";
 function getWelcomeResponse(callback) {
     // Be sure to change this for your skill.
     var sessionAttributes = {},
-        speechOutput = "Let's learn about capitals in the United Nations member countries. I will ask you about " + GAME_LENGTH.toString()
+        speechOutput = "Let's learn about capitals of the United Nations member states. I will ask you about " + GAME_LENGTH.toString()
             + " capitals, try to get as many right as you can. Just say the name of the capital. Let's begin. ",
         shouldEndSession = false,
 
@@ -530,7 +1240,7 @@ function handleAnswerRequest(intent, session, callback) {
         if (currentQuestionIndex == GAME_LENGTH - 1) {
             speechOutput = userGaveUp ? "" : "That answer is ";
             speechOutput += speechOutputAnalysis + "You got " + currentScore.toString() + " out of "
-                + GAME_LENGTH.toString() + " questions correct. Thank you for learning the capital cities of the United Nations member countries!";
+                + GAME_LENGTH.toString() + " questions correct. Thank you for learning the capital cities of the United Nations member states!";
             callback(session.attributes,
                 buildSpeechletResponse(CARD_TITLE, speechOutput, "", true));
         } else {
@@ -578,9 +1288,9 @@ function handleRepeatRequest(intent, session, callback) {
 function handleGetHelpRequest(intent, session, callback) {
     // Do not edit the help dialogue. This has been created by the Alexa team to demonstrate best practices.
 
-    var speechOutput = "I will ask you to provide the name of the capital of a member country of the United Nations. I will provide the name of the country, you will need to provide the name of its capital city. "
-        + "For example, If the country is Switzerland, you would say Bern. To start a new game at any time, say, start new game. "
-        + "To repeat the last country, say, repeat. "
+    var speechOutput = "I will ask you to provide the name of the capital of a member states of the United Nations. I will provide the name of the member state, you will need to provide the name of its capital city. "
+        + "For example, If the member state is Switzerland, you would say Bern. To start a new game at any time, say, start new game. "
+        + "To repeat the last member state, say, repeat. "
         + "Would you like to keep playing?",
         repromptText = "To give an answer, respond with the correct capital. "
         + "Would you like to keep playing?";
